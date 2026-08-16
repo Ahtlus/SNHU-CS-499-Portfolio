@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CS 499 Computer Science Capstone Portfolio</title>
+    <title>CS 499 Computer Science Capstone Portfolio - Alex Campbell</title>
     <style>
         /* Modern, clean GitHub-inspired typography and layout */
         body { 
@@ -66,23 +66,60 @@
 </head>
 <body>
 
-    <!-- ==================== README CONTENT SECTION ==================== -->
+    <!-- ==================== README & EPORTFOLIO CONTENT ==================== -->
     <div class="readme-section">
         <h1>CS 499 Computer Science Capstone Portfolio</h1>
+        <p><strong>Author:</strong> Alex Campbell</p>
         <p>Welcome to my Capstone ePortfolio repository for CS 499. Over the course of my computer science degree, I built a solid technical foundation, but for this capstone, I wanted to take things a step further. I selected three distinct projects from earlier in my coursework and went back through them to thoroughly refactor the code, fix hidden vulnerabilities, optimize performance, and bring everything up to professional standards. This repository serves as a comprehensive showcase of that work, detailing the artifacts I chose, the specific issues I identified in the original code, and the enhancements implemented to make them production-ready.</p>
         
         <hr>
         
         <h2>Table of Contents</h2>
         <ul>
+            <li><a href="#self-assessment">Professional Self-Assessment</a></li>
+            <li><a href="#code-review">Code Review Presentation</a></li>
             <li><a href="#artifact-1">Artifact 1: Software Engineering and Design</a></li>
             <li><a href="#artifact-2">Artifact 2: Computational Graphics and Performance Optimization</a></li>
             <li><a href="#artifact-3">Artifact 3: Systems Architecture and Resource Management</a></li>
             <li><a href="#conclusion">Conclusion</a></li>
+            <li><a href="#downloads">Project Downloads & Source Code</a></li>
         </ul>
         
         <hr>
-        
+
+        <!-- ==================== PROFESSIONAL SELF-ASSESSMENT ==================== -->
+        <div id="self-assessment">
+            <h2>Professional Self-Assessment</h2>
+            <p>Completing my Bachelor of Science in Computer Science and developing this capstone ePortfolio has been a valuable reflection on my growth as a developer. Looking back through my coursework—ranging from linear algebra computations and software security to full-stack object-oriented development and machine learning models—I have transformed how I approach software engineering, security, and performance. This program has not only built my core technical skills, but it has also established my primary engineering values: writing clean, defensive code, prioritizing low-level efficiency, and taking an aggressive security-first approach to system design.</p>
+
+            <h3>Shaping Goals, Values, and Employability</h3>
+            <p>In real-world software engineering, writing code that simply "works" is only the baseline. Professional-grade software must be resilient against unexpected inputs, optimized for hardware efficiency, and built to scale cleanly. My primary goal entering the software industry is to contribute to high-performance backend systems and software architecture where safety, memory management, and speed are critical. Developing this ePortfolio enhanced my employability by giving me practical experience auditing legacy codebases, isolating architectural bottlenecks, and systematically refactoring them to enterprise standards.</p>
+
+            <h3>Core Program Competencies & Topics</h3>
+            <ul>
+                <li><strong>Collaborating in a Team Environment:</strong> Throughout my computer science coursework, I learned that readable code and clear documentation are just as vital as working logic. Code reviews are collaborative touchpoints that enable technical and non-technical stakeholders to make informed decisions together. Maintaining context-rich comments, structured git commits, and clean architecture ensures that any team member can audit or build upon the codebase.</li>
+                <li><strong>Communicating with Stakeholders:</strong> Translating complex technical mechanics into clear, accessible language is essential for project success. Whether recording screencast code walkthroughs for team members or documenting system flaws in milestone reports, I have refined my ability to articulate technical decisions, justify performance trade-offs, and explain complex logic concisely.</li>
+                <li><strong>Data Structures and Algorithms:</strong> Real-time applications rely heavily on selecting optimal data structures and minimizing algorithmic overhead. By analyzing rendering loops in C++, I identified critical bottlenecks where matrix transformations were being redundantly recalculated every frame tick. Implementing intelligent state caching demonstrated how algorithmic optimization directly reduces CPU overhead and improves application responsiveness.</li>
+                <li><strong>Software Engineering and Databases:</strong> Engineering durable systems requires disciplined object-oriented design, robust testing pipelines, and clean data access patterns. My experience refactoring backend Java services focused on implementing strict parameter checks, managing object state transitions safely, and leveraging comprehensive JUnit test suites to verify system behavior across all edge cases.</li>
+                <li><strong>Developing a Security Mindset:</strong> Adopting a security mindset means anticipating adversarial exploits and failure modes before code hits production. Across my software security coursework, I focused on eradicating silent memory leaks, eliminating buffer risks, enforcing strict input validation, and applying RAII principles in C++ to guarantee deterministic resource cleanup, ensuring system stability and resource protection.</li>
+            </ul>
+
+            <h3>Portfolio Overview</h3>
+            <p>The artifacts detailed below represent my technical growth across software engineering, algorithmic efficiency, and systems architecture. Each section outlines the original implementation, the flaws identified during my code review, and the refactoring implemented to elevate the project to production quality.</p>
+        </div>
+
+        <hr>
+
+        <!-- ==================== CODE REVIEW SECTION ==================== -->
+        <div id="code-review">
+            <h2>Code Review Presentation</h2>
+            <p>Prior to refactoring these artifacts, I conducted a comprehensive code review walkthrough. The video presentation analyzes the baseline code structure, identifies performance bottlenecks and security vulnerabilities, and outlines the explicit enhancement plan for each artifact across the capstone outcomes.</p>
+            <p><em>Scroll down to the <a href="#downloads">Downloads Section</a> to watch the embedded code review video or download the raw project files.</em></p>
+        </div>
+
+        <hr>
+
+        <!-- ==================== ARTIFACT 1 ==================== -->
         <div id="artifact-1">
             <h2>Artifact 1: Software Engineering and Design (Backend Services & Testing)</h2>
             <ul>
@@ -103,6 +140,7 @@
         
         <hr>
         
+        <!-- ==================== ARTIFACT 2 ==================== -->
         <div id="artifact-2">
             <h2>Artifact 2: Computational Graphics and Performance Optimization (<code>ViewManager.cpp</code>)</h2>
             <ul>
@@ -122,6 +160,7 @@
         
         <hr>
         
+        <!-- ==================== ARTIFACT 3 ==================== -->
         <div id="artifact-3">
             <h2>Artifact 3: Systems Architecture and Resource Management (<code>ShaderManager.cpp</code>)</h2>
             <ul>
@@ -148,31 +187,39 @@
     </div>
 
     <!-- ==================== ARTIFACT FILE DOWNLOADS SECTION ==================== -->
-    <div class="file-section">
+    <div id="downloads" class="file-section">
         <h1>Available Files for Download</h1>
         
-        <h2>Word Documents</h2>
+        <h2>Milestone Narratives (Word Documents)</h2>
         <ul>
             <li><a href="CS_449_Enhancement_1_Campbell.docx" download>Download Enhancement 1 Word Document</a></li>
             <li><a href="CS_499_Enhancement_2_Campbell.docx" download>Download Enhancement 2 Word Document</a></li>
             <li><a href="CS_499_Enhancement_3_Campbell.docx" download>Download Enhancement 3 Word Document</a></li>
         </ul>
         
-        <h2>Narrative Presentation Video</h2>
+        <h2>Informal Code Review Video</h2>
         <video width="100%" max-width="640" height="360" controls>
             <source src="2026-07-12 05-13-33.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <p><a href="2026-07-12 05-13-33.mp4" download>Or click here to download the video file directly</a></p>
         
-        <h2>Zipped Project Code Folders</h2>
+        <h2>Project Code Repositories (Base vs. Enhanced)</h2>
         <ul>
-            <li><a href="CS_320_Project_1_Campbell (1).zip" download>Download Artifact 1 Base</a></li>
-            <li><a href="CS_320_Project_1_Campbell(Enhanced) (1).zip" download>Download Artifact 1 Enhancement 1</a></li>
-            <li><a href="CS_330_3DScene_Campbell (1).zip" download>Download Artifact 2 Base</a></li>
-            <li><a href="CS_330_3DScene_Campbell(Enhanced).zip" download>Download Artifact 2 Enhancement 2</a></li>
-            <li><a href="CS_330_3DScene_Campbell(Enhanced2).zip" download>Download Artifact 2 Enhancement 3</a></li>
+            <li><strong>Artifact 1 (Software Engineering):</strong>
+                <a href="CS_320_Project_1_Campbell (1).zip" download>Download Base Code</a> | 
+                <a href="CS_320_Project_1_Campbell(Enhanced) (1).zip" download>Download Enhanced Code</a>
+            </li>
+            <li><strong>Artifact 2 (Algorithms & Data Structures):</strong>
+                <a href="CS_330_3DScene_Campbell (1).zip" download>Download Base Code</a> | 
+                <a href="CS_330_3DScene_Campbell(Enhanced).zip" download>Download Enhanced Code</a>
+            </li>
+            <li><strong>Artifact 3 (Systems Architecture & Memory):</strong>
+                <a href="CS_330_3DScene_Campbell (1).zip" download>Download Base Code</a> | 
+                <a href="CS_330_3DScene_Campbell(Enhanced2).zip" download>Download Enhanced Code</a>
+            </li>
         </ul>
+    </div>
 
 </body>
 </html>
